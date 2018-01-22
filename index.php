@@ -9,9 +9,9 @@
      for($i=1;$i<4; $i++)
        {
           $jsonTempData = array();
-          $jsonTempData['name']         = $data.$word;
-          $jsonTempData['number']       = $data.$word;
-          $jsonTempData['date_added']   = $data.$word;
+          $jsonTempData['name']         = $word;
+          $jsonTempData['number']       = $word;
+          $jsonTempData['date_added']   = $word;
            
           $jsonData[] = $jsonTempData;
        }
