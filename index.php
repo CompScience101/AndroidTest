@@ -11,7 +11,7 @@
     print($name);
     
     //Communicate with Database
-    $servername = "mysql"; //AndroidTestDB
+    $servername = "localhost"; //AndroidTestDB
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
