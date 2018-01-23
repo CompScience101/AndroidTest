@@ -14,9 +14,10 @@
     $servername = "mysql:3306/"; //AndroidTestDB
     $username = "my_admin";
     $password = "bicycle_car_crane";
+    $dbname = "AndroidTestDB";
 
     // Create connection
-    $conn = mysqli_connect($servername, $username, $password);
+    $conn = mysqli_connect($servername, $username, $password, $dbname);
 
     // Check connection
     if (!$conn) {
