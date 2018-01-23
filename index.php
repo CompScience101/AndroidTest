@@ -10,4 +10,18 @@
     $name=$myName->showName(); //to retrieve from database. 
     print($name);
     
+    //Communicate with Database
+    $servername = "mysql:3306/AndroidTestDB";
+    $username = "my_admin";
+    $password = "bicycle_car_crane";
+
+    // Create connection
+    $conn = mysqli_connect($servername, $username, $password);
+
+    // Check connection
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    echo "Connected successfully";
+    
 ?>
