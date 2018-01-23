@@ -4,7 +4,7 @@
 
     include_once("php_class_object.php");
     //$name = $_POST['name'];   //add name attribute to input tag in HTML
-    $name = "testing phpinfo";
+    $name = "testing phpinfo.root";
     $myName = new Name();
     $myName->enterName($name); //to save in database/
     $name=$myName->showName(); //to retrieve from database. 
