@@ -1,5 +1,7 @@
 <?php 
- 
+    // Purpose: built for Restful Webservice Call And Get And Parse JSON Data Android Example
+    // reference: https://androidexample.com/Restful_Webservice_Call_And_Get_And_Parse_JSON_Data-_Android_Example/index.php?view=article_discription&aid=101&aaid=123
+
     // Get Post Data
     $data = urldecode($_POST['data']);
        
