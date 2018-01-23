@@ -5,7 +5,7 @@
 
 class Name
 {
-    public $name;
+    private $name;
     public function showName()
     {
         /**
