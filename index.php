@@ -4,14 +4,14 @@
 
     include_once("php_class_object.php");
     //$name = $_POST['name'];   //add name attribute to input tag in HTML
-    $name = "testing localhost";
+    $name = "testing host ip";
     $myName = new Name();
     $myName->enterName($name); //to save in database/
     $name=$myName->showName(); //to retrieve from database. 
     print($name);
     
     //Communicate with Database
-    $servername = "localhost"; //AndroidTestDB
+    $servername = "172.30.172.210"; //mysql,localhost
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
