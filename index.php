@@ -14,11 +14,11 @@
     phpinfo();
 
     //Communicate with Database
-    //$servername = "jdbc:mysql://mysql"; //mysql,localhost
-    //$username = "my_admin";
-    //$password = "bicycle_car_crane";
-    //$dbname = "AndroidTestDB";
-    //$port = "3306";
+    $servername = "172.30.172.210"; //mysql,localhost
+    $username = "my_admin";
+    $password = "bicycle_car_crane";
+    $dbname = "AndroidTestDB";
+    $port = "3306";
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
