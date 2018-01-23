@@ -4,14 +4,15 @@
 
     include_once("php_class_object.php");
     //$name = $_POST['name'];   //add name attribute to input tag in HTML
-    $name = "testing phpinfo.root";
+    $name = "testing phpinfo.root.test";
     $myName = new Name();
     $myName->enterName($name); //to save in database/
     $name=$myName->showName(); //to retrieve from database. 
     print($name);
     
     // Show all information, defaults to INFO_ALL
-    phpinfo();
+    //phpinfo();
+
     //Communicate with Database
     $servername = getenv("HOSTNAME"); //mysql, android-test-53-wn9xb, getenv(MYSQL_PORT_3306_TCP_ADDR) //ip address
     $username = "my_admin";
