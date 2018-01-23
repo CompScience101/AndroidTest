@@ -4,18 +4,21 @@
 
     include_once("php_class_object.php");
     //$name = $_POST['name'];   //add name attribute to input tag in HTML
-    $name = "testing host ip";
+    $name = "testing phpinfo";
     $myName = new Name();
     $myName->enterName($name); //to save in database/
     $name=$myName->showName(); //to retrieve from database. 
     print($name);
     
+    // Show all information, defaults to INFO_ALL
+    phpinfo();
+
     //Communicate with Database
-    $servername = "jdbc:mysql://mysql"; //mysql,localhost
-    $username = "my_admin";
-    $password = "bicycle_car_crane";
-    $dbname = "AndroidTestDB";
-    $port = "3306";
+    //$servername = "jdbc:mysql://mysql"; //mysql,localhost
+    //$username = "my_admin";
+    //$password = "bicycle_car_crane";
+    //$dbname = "AndroidTestDB";
+    //$port = "3306";
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
