@@ -11,13 +11,14 @@
     print($name);
     
     //Communicate with Database
-    $servername = "mysql:3306/"; //AndroidTestDB
+    $servername = "mysql"; //AndroidTestDB
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
+    $port = "3306";
 
     // Create connection
-    $conn = mysqli_connect($servername, $username, $password, $dbname);
+    $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
 
     // Check connection
     if (!$conn) {
