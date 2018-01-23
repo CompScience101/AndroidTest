@@ -13,7 +13,7 @@
     // Show all information, defaults to INFO_ALL
     phpinfo();
     //Communicate with Database
-    $servername = getenv("HOSTNAME"); //mysql, android-test-53-wn9xb, getenv(MYSQL_PORT_3306_TCP_ADDR)
+    $servername = getenv("HOSTNAME"); //mysql, android-test-53-wn9xb, getenv(MYSQL_PORT_3306_TCP_ADDR) //ip address
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
