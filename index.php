@@ -12,14 +12,12 @@
     
     // Show all information, defaults to INFO_ALL
     phpinfo();
-    String host = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
-String port = System.getenv("OPENSHIFT_MYSQL_DB_PORT");
     //Communicate with Database
-    $servername = System.getenv("HOSTNAME"); //mysql,localhost
+    $servername = getenv("HOSTNAME"); //mysql, android-test-53-wn9xb, getenv(MYSQL_PORT_3306_TCP_ADDR)
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
-    $port = "3306";
+    $port = getenv("MYSQL_SERVICE_PORT_MYSQL");// default= "3306"
 
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
