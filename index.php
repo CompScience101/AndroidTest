@@ -12,9 +12,10 @@
     
     // Show all information, defaults to INFO_ALL
     phpinfo();
-
+    String host = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
+String port = System.getenv("OPENSHIFT_MYSQL_DB_PORT");
     //Communicate with Database
-    $servername = "172.30.172.210"; //mysql,localhost
+    $servername = System.getenv("HOSTNAME"); //mysql,localhost
     $username = "my_admin";
     $password = "bicycle_car_crane";
     $dbname = "AndroidTestDB";
