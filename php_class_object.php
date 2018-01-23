@@ -15,7 +15,7 @@ class Name
     }
     public function enterName($TName)
     {
-        $this->name = $TName;
+        $this->name = $TName.".Stored";
         /**
         Put your database code here.
         **/
