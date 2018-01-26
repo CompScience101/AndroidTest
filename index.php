@@ -4,7 +4,7 @@ require_once "Mail.php";
 
 $from = '<UHC_Tech_Support@gmail.com>';
 $to = '<nsdonaldwebmail@gmail.com>'; // '<$_POST['data']>'; //add name attribute to input tag in HTML
-$subject = '$_POST['data']';
+$subject = ''.$_POST['data'].'';
 $body = "Hi,How are you?";
 
 $headers = array(
