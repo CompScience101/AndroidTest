@@ -12,7 +12,7 @@ class info
     //public function __construct(){
        // my_init();
     //}
-    public function my_init(){
+    public function myInit(){
         $this->server_support = '<UHC_Tech_Supprt@gmail.com>';
         $this->host = 'ssl://smtp.gmail.com';
         $this->port = '465';
