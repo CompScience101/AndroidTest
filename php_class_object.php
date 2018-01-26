@@ -3,7 +3,7 @@
     // reference: https://stackoverflow.com/questions/20603992/object-oriented-php-class-simple-example
     // PHP class filename: php_class_object.php
 
-private class info
+class info
 {
     private $server_support = '';
     private $host = '';
