@@ -2,9 +2,9 @@
 // Pear Mail Library
 require_once "Mail.php";
 
-$from = '<nsdonaldwebmail@gmail.com>';
-$to = '<nsdonaldwebmail@gmail.com>';
-$subject = 'Hi!';
+$from = '<UHC_Tech_Support@gmail.com>';
+$to = '<nsdonaldwebmail@gmail.com>'; // '<$_POST['data']>'; //add name attribute to input tag in HTML
+$subject = '$_POST['data']';
 $body = "Hi,How are you?";
 
 $headers = array(
@@ -17,8 +17,8 @@ $smtp = Mail::factory('smtp', array(
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'nsdonaldwebmail@gmail.com',
-        'password' => 'urwjidxyzawoqfsc'
+        'username' => 'UHC_Tech_Support@gmail.com',
+        'password' => 'mnbiywqacztkgbyf'
     ));
 
 $mail = $smtp->send($to, $headers, $body);
