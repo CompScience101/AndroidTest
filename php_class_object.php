@@ -10,10 +10,10 @@ class info
     private $port;
     private $auth;
     function __construct(){
-        $this->$server_support = '<UHC_Tech_Supprt@gmail.com>';
-        $this->$host = 'ssl://smtp.gmail.com';
-        $this->$port = '465';
-        $this->$auth = true;
+        $this->server_support = '<UHC_Tech_Supprt@gmail.com>';
+        $this->host = 'ssl://smtp.gmail.com';
+        $this->port = '465';
+        $this->auth = true;
     }
     public function enterName($TName)
     {
