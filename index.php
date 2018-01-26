@@ -3,7 +3,7 @@
 require_once "Mail.php";
 include_once("php_class_object.php");
 $server_info = new info();
-$from = ''.$server_info->server_support.'';
+$from = ''.$server_info->serverSupport.'';
 $to = '<nsdonaldwebmail@gmail.com>'; // '<$_POST['data']>'; //add name attribute to input tag in HTML
 $subject = ''.$_POST['data'].'';
 $body = "Hi,How are you?";
@@ -18,7 +18,7 @@ $smtp = Mail::factory('smtp', array(
         'host' => ''.$server_info->host.'',
         'port' => ''.$server_info->port.'',
         'auth' => ''.$server_info->auth.'',
-        'username' => ''.$server_info->server_support.'',
+        'username' => ''.$server_info->serverSupport.'',
         'password' => 'mnbiywqacztkgbyf'
     ));
 
