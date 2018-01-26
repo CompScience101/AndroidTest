@@ -9,7 +9,7 @@ class info
     private $host = '';
     private $port = '';
     private $auth = '';
-    function __construct(){
+    public function __construct(){
         my_init();
     }
     public function my_init(){
