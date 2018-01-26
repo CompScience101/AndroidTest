@@ -9,7 +9,7 @@ class info
     private $host;
     private $port;
     private $auth;
-    public info(){
+    info(){
         $this->$server_support = '<UHC_Tech_Supprt@gmail.com>';
         $this->$host = 'ssl://smtp.gmail.com';
         $this->$port = '465';
