@@ -10,9 +10,9 @@ class info
     private $port = '';
     private $auth = '';
     function __construct(){
-        init();
+        my_init();
     }
-    private funtion init(){
+    private funtion my_init(){
         $this->server_support = '<UHC_Tech_Supprt@gmail.com>';
         $this->host = 'ssl://smtp.gmail.com';
         $this->port = '465';
