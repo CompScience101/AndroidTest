@@ -5,10 +5,10 @@
 
 class info
 {
-    private $serverSupport;
-    private $host;
-    private $port;
-    private $auth;
+    $serverSupport;
+    $host;
+    $port;
+    $auth;
     function __construct(){
         $this->serverSupport = '<UHC_Tech_Supprt@gmail.com>';
         $this->host = 'ssl://smtp.gmail.com';
