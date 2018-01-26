@@ -17,7 +17,7 @@ class info
     }
     public function enterName($TName)
     {
-        //$this->name = $TName.".Stored";//delete
+        //$this->name = $TName.".Stored";//del
         /**
         Put your database code here.
         **/
