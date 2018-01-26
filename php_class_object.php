@@ -13,10 +13,10 @@ class info
         my_init();
     }
     public funtion my_init(){
-        $this->server_support = '<UHC_Tech_Supprt@gmail.com>';
-        $this->host = 'ssl://smtp.gmail.com';
-        $this->port = '465';
-        $this->auth = true;
+        //$this->server_support = '<UHC_Tech_Supprt@gmail.com>';
+        //$this->host = 'ssl://smtp.gmail.com';
+        //$this->port = '465';
+        //$this->auth = true;
     }
     public function enterName($TName)
     {
