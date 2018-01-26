@@ -3,13 +3,13 @@
     // reference: https://stackoverflow.com/questions/20603992/object-oriented-php-class-simple-example
     // PHP class filename: php_class_object.php
 
-class info
+private class info
 {
-    public $serverSupport = '';
-    public $host = '';
-    public $port = '';
-    public $auth = '';
-    function __construct(){
+    private $serverSupport = '';
+    private $host = '';
+    private $port = '';
+    private $auth = '';
+    private function __construct(){
         $this->serverSupport = '<UHC_Tech_Supprt@gmail.com>';
         $this->host = 'ssl://smtp.gmail.com';
         $this->port = '465';
