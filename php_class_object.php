@@ -3,15 +3,17 @@
     // reference: https://stackoverflow.com/questions/20603992/object-oriented-php-class-simple-example
     // PHP class filename: php_class_object.php
 
-class Name
+class info
 {
-    private $name;
-    public function showName()
-    {
-        /**
-        Put your database code here to extract from database.
-        **/
-        return($this->name);
+    private $server_support;
+    private $host;
+    private $port;
+    private $auth;
+    public info(){
+        $this->$server_support = '<UHC_Tech_Supprt@gmail.com>';
+        $this->$host = 'ssl://smtp.gmail.com';
+        $this->$port = '465';
+        $this->$auth = true;
     }
     public function enterName($TName)
     {
