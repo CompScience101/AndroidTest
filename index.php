@@ -26,7 +26,7 @@ while (!$content->getBody()->eof()) {
         fwrite($outHandle, $content->getBody()->read(1024));
 }
 
-// Close output file handle.
+// Close output file handle. 
 
 fclose($outHandle);
 echo "Done.\n"
